@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MA RUQ Al Falah</title>
+    <title>MA RUQ Al Falah | Madrasah Unggul dan Berkarakter</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
 
         <div class="logo">
-            MA RUQ Al Falah
+           <ing src="assets/logo.png" alt="Logo MA RUQ Al Falah"></ingsrc>
+
+            <div>
+                <strong>MA RUQ Al Falah</strong>
+                <small>Madrasah Aliyah</small>
+            </div>
         </div>
 
-        <div class="menu">
-            <a href="#">Beranda</a>
-            <a href="#">Profil</a>
-            <a href="#">Program</a>
-            <a href="#">Prestasi</a>
-            <a href="#">Galeri</a>
-            <a href="#">Kontak</a>
-        </div>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Profil</a>
+            <a href="#program">Program</a>
+            <a href="#prestasi">Prestasi</a>
+            <a href="#berita">Berita</a>
+            <a href="#galeri">Galeri</a>
+        </nav>
 
-    </nav>
+        <a href="#kontak" class="btn-nav">
+            Hubungi Kami
+        </a>
+
+    </header>
 
 
-    <!-- HERO -->
-    <section class="hero">
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="beranda">
+
+        <div class="hero-overlay"></div>
 
         <div class="hero-content">
 
-            <p class="small-title">
-                MADRASAH ALIYAH RUQ AL FALAH
-            </p>
+            <span class="hero-label">
+                ✦ MADRASAH ALIYAH RUQ AL FALAH
+            </span>
 
             <h1>
                 Membangun Generasi
                 <span>Unggul & Berakhlak</span>
             </h1>
 
-            <p class="description">
-                Membentuk generasi berilmu, berkarakter,
-                berprestasi, dan berlandaskan nilai-nilai Islam.
+            <p>
+                Mewujudkan generasi yang berilmu, berprestasi,
+                berkarakter, dan berlandaskan nilai-nilai Islam.
             </p>
 
-            <div class="buttons">
+            <div class="hero-buttons">
 
-                <a href="#" class="btn-primary">
-                    Tentang Kami
+                <a href="#tentang" class="btn-primary">
+                    Mengenal Kami →
                 </a>
 
-                <a href="#" class="btn-secondary">
-                    Lihat Program
+                <a href="#program" class="btn-outline">
+                    Program Unggulan
                 </a>
 
             </div>
@@ -66,40 +80,410 @@
     </section>
 
 
-    <!-- TENTANG -->
-    <section class="about">
+    <!-- ================= TENTANG ================= -->
 
-        <div>
+    <section class="about section" id="tentang">
 
-            <p class="section-label">
+        <div class="about-image">
+
+            <div class="image-placeholder">
+                <span>FOTO MADRASAH</span>
+                <small>Foto akan kita masukkan nanti</small>
+            </div>
+
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-label">
                 TENTANG KAMI
-            </p>
+            </span>
 
             <h2>
-                Selamat Datang di
-                MA RUQ Al Falah
+                Pendidikan yang Membentuk
+                <span>Masa Depan</span>
             </h2>
 
             <p>
-                MA RUQ Al Falah merupakan madrasah yang berkomitmen
-                dalam memberikan pendidikan berkualitas dengan
-                mengintegrasikan ilmu pengetahuan, teknologi,
+                MA RUQ Al Falah hadir sebagai lembaga pendidikan
+                yang mengintegrasikan ilmu pengetahuan, teknologi,
                 dan nilai-nilai keislaman.
             </p>
+
+            <p>
+                Kami berkomitmen menciptakan lingkungan pendidikan
+                yang mendorong peserta didik untuk berkembang,
+                berprestasi, dan memiliki akhlak yang baik.
+            </p>
+
+            <a href="#" class="text-button">
+                Selengkapnya →
+            </a>
 
         </div>
 
     </section>
 
 
-    <!-- FOOTER -->
-    <footer>
+    <!-- ================= STATISTIK ================= -->
+
+    <section class="stats">
+
+        <div class="stat">
+            <strong>500+</strong>
+            <span>Peserta Didik</span>
+        </div>
+
+        <div class="stat">
+            <strong>50+</strong>
+            <span>Tenaga Pendidik</span>
+        </div>
+
+        <div class="stat">
+            <strong>25+</strong>
+            <span>Prestasi</span>
+        </div>
+
+        <div class="stat">
+            <strong>10+</strong>
+            <span>Program Unggulan</span>
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROGRAM ================= -->
+
+    <section class="program section" id="program">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                PROGRAM UNGGULAN
+            </span>
+
+            <h2>
+                Mengembangkan Potensi
+                <span>Peserta Didik</span>
+            </h2>
+
+            <p>
+                Berbagai program untuk mendukung perkembangan
+                akademik, karakter, kreativitas, dan keterampilan.
+            </p>
+
+        </div>
+
+
+        <div class="program-grid">
+
+            <div class="card">
+
+                <div class="card-icon">📚</div>
+
+                <h3>Akademik</h3>
+
+                <p>
+                    Pembelajaran berkualitas untuk meningkatkan
+                    kemampuan akademik peserta didik.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">🏆</div>
+
+                <h3>Prestasi</h3>
+
+                <p>
+                    Mendorong siswa untuk berkompetisi dan
+                    mengembangkan potensi di berbagai bidang.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">🔬</div>
+
+                <h3>Riset & Inovasi</h3>
+
+                <p>
+                    Membentuk budaya penelitian, kreativitas,
+                    dan inovasi teknologi.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">☪</div>
+
+                <h3>Keislaman</h3>
+
+                <p>
+                    Menanamkan nilai-nilai Islam dan akhlak
+                    dalam kehidupan sehari-hari.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRESTASI ================= -->
+
+    <section class="achievement section" id="prestasi">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                PRESTASI
+            </span>
+
+            <h2>
+                Karya dan Prestasi
+                <span>Siswa Kami</span>
+            </h2>
+
+        </div>
+
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                <div class="achievement-number">01</div>
+                <h3>Prestasi Nasional</h3>
+                <p>
+                    Berbagai pencapaian peserta didik
+                    dalam kompetisi tingkat nasional.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-number">02</div>
+                <h3>Riset & Science</h3>
+                <p>
+                    Pengembangan inovasi dan penelitian
+                    di bidang sains dan teknologi.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-number">03</div>
+                <h3>Kompetisi</h3>
+                <p>
+                    Partisipasi aktif dalam berbagai
+                    kompetisi akademik dan non-akademik.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BERITA ================= -->
+
+    <section class="news section" id="berita">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                INFORMASI TERBARU
+            </span>
+
+            <h2>
+                Berita & Kegiatan
+            </h2>
+
+        </div>
+
+
+        <div class="news-grid">
+
+            <article class="news-card">
+
+                <div class="news-image">
+                    BERITA 01
+                </div>
+
+                <div class="news-content">
+
+                    <small>8 Oktober 2026</small>
+
+                    <h3>
+                        Kegiatan Terbaru MA RUQ Al Falah
+                    </h3>
+
+                    <p>
+                        Informasi mengenai kegiatan terbaru
+                        madrasah.
+                    </p>
+
+                    <a href="#">
+                        Baca Selengkapnya →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="news-card">
+
+                <div class="news-image">
+                    BERITA 02
+                </div>
+
+                <div class="news-content">
+
+                    <small>8 Oktober 2026</small>
+
+                    <h3>
+                        Prestasi Peserta Didik
+                    </h3>
+
+                    <p>
+                        Kabar prestasi dan pencapaian
+                        peserta didik.
+                    </p>
+
+                    <a href="#">
+                        Baca Selengkapnya →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="news-card">
+
+                <div class="news-image">
+                    BERITA 03
+                </div>
+
+                <div class="news-content">
+
+                    <small>8 Oktober 2026</small>
+
+                    <h3>
+                        Program Unggulan Madrasah
+                    </h3>
+
+                    <p>
+                        Informasi mengenai program unggulan
+                        madrasah.
+                    </p>
+
+                    <a href="#">
+                        Baca Selengkapnya →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GALERI ================= -->
+
+    <section class="gallery section" id="galeri">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                GALERI
+            </span>
+
+            <h2>
+                Aktivitas Madrasah
+            </h2>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div>FOTO 01</div>
+            <div>FOTO 02</div>
+            <div>FOTO 03</div>
+            <div>FOTO 04</div>
+            <div>FOTO 05</div>
+            <div>FOTO 06</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta" id="kontak">
+
+        <h2>
+            Mari Bersama Membangun
+            Generasi Masa Depan
+        </h2>
 
         <p>
-            © 2026 MA RUQ Al Falah. All Rights Reserved.
+            Kenali lebih dekat MA RUQ Al Falah.
         </p>
+
+        <a href="#" class="btn-primary">
+            Hubungi Kami →
+        </a>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>MA RUQ Al Falah</h3>
+
+                <p>
+                    Madrasah Aliyah yang berkomitmen
+                    membangun generasi unggul dan berakhlak.
+                </p>
+            </div>
+
+            <div>
+                <h4>Menu</h4>
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Profil</a>
+                <a href="#program">Program</a>
+                <a href="#prestasi">Prestasi</a>
+            </div>
+
+            <div>
+                <h4>Kontak</h4>
+                <p>Salatiga, Jawa Tengah</p>
+                <p>Email: info@madrasah.sch.id</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 MA RUQ Al Falah. All Rights Reserved.
+        </div>
 
     </footer>
 
 </body>
+
 </html>
